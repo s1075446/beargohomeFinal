@@ -9,7 +9,21 @@
         android:roundIcon="@drawable/bear"
         android:supportsRtl="true"
         android:theme="@style/Theme.Beargohome">
-        <activity android:name=".MainActivity"
+        <activity android:name=".MainActivity42"
+            android:screenOrientation="landscape"></activity>
+        <activity android:name=".MainActivity41"
+            android:screenOrientation="landscape"/>
+        <activity
+            android:name=".MainActivity32"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".MainActivity31"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".MainActivity2"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".MainActivity"
             android:screenOrientation="landscape">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
