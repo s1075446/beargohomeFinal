@@ -3,13 +3,13 @@ package tw.edu.pu.s410754469.beargohome
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import kotlinx.android.synthetic.main.activity_main.*
-import kotlinx.android.synthetic.main.activity_main62.*
 import android.view.MotionEvent
 import android.view.View
 import android.widget.ImageView
 
 class MainActivity62 : AppCompatActivity() {
 
+    //拖曳部分
     lateinit var m1:ImageView
     lateinit var n1:ImageView
     lateinit var o1:ImageView
@@ -20,6 +20,7 @@ class MainActivity62 : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main62)
 
+        //拖曳部分
         val actionBar = supportActionBar
         actionBar!!.hide()
 
