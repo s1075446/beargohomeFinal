@@ -7,99 +7,161 @@
     tools:context=".MainActivity42"
     android:background="@drawable/background">
 
+    //熊橙色
     <ImageView
         android:id="@+id/g"
-        android:layout_width="176dp"
-        android:layout_height="117dp"
+        android:layout_width="173dp"
+        android:layout_height="135dp"
         app:srcCompat="@drawable/g"
-        tools:layout_editor_absoluteX="15dp"
-        tools:layout_editor_absoluteY="62dp" />
-
-    <ImageView
-        android:id="@+id/g1"
-        android:layout_width="113dp"
-        android:layout_height="105dp"
-        app:srcCompat="@drawable/g1"
-        tools:layout_editor_absoluteX="182dp"
-        tools:layout_editor_absoluteY="42dp" />
-
+        app:layout_constraintBottom_toTopOf="@id/h"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+    //熊紫色
     <ImageView
         android:id="@+id/h"
-        android:layout_width="177dp"
-        android:layout_height="115dp"
+        android:layout_width="173dp"
+        android:layout_height="135dp"
         app:srcCompat="@drawable/h"
-        tools:layout_editor_absoluteX="5dp"
-        tools:layout_editor_absoluteY="179dp" />
-
-    <ImageView
-        android:id="@+id/h1"
-        android:layout_width="121dp"
-        android:layout_height="116dp"
-        app:srcCompat="@drawable/h1"
-        tools:layout_editor_absoluteX="281dp"
-        tools:layout_editor_absoluteY="147dp" />
-
+        app:layout_constraintBottom_toTopOf="@id/i"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/g"/>
+    //熊綠色
     <ImageView
         android:id="@+id/i"
-        android:layout_width="166dp"
-        android:layout_height="124dp"
+        android:layout_width="173dp"
+        android:layout_height="135dp"
         app:srcCompat="@drawable/i"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="297dp" />
-
-    <ImageView
-        android:id="@+id/i1"
-        android:layout_width="99dp"
-        android:layout_height="91dp"
-        app:srcCompat="@drawable/i1"
-        tools:layout_editor_absoluteX="191dp"
-        tools:layout_editor_absoluteY="232dp" />
-
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/h" />
+    //熊黃色
     <ImageView
         android:id="@+id/j"
-        android:layout_width="185dp"
-        android:layout_height="131dp"
+        android:layout_width="173dp"
+        android:layout_height="135dp"
         app:srcCompat="@drawable/j"
-        tools:layout_editor_absoluteX="530dp"
-        tools:layout_editor_absoluteY="62dp" />
-
-    <ImageView
-        android:id="@+id/j1"
-        android:layout_width="100dp"
-        android:layout_height="86dp"
-        app:srcCompat="@drawable/j1"
-        tools:layout_editor_absoluteX="420dp"
-        tools:layout_editor_absoluteY="69dp" />
-
+        app:layout_constraintBottom_toTopOf="@id/k"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    //熊紅色
     <ImageView
         android:id="@+id/k"
-        android:layout_width="137dp"
-        android:layout_height="104dp"
+        android:layout_width="173dp"
+        android:layout_height="135dp"
         app:srcCompat="@drawable/k"
-        tools:layout_editor_absoluteX="569dp"
-        tools:layout_editor_absoluteY="193dp" />
-
-    <ImageView
-        android:id="@+id/k1"
-        android:layout_width="103dp"
-        android:layout_height="88dp"
-        app:srcCompat="@drawable/k1"
-        tools:layout_editor_absoluteX="427dp"
-        tools:layout_editor_absoluteY="242dp" />
-
+        app:layout_constraintBottom_toTopOf="@id/l"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/j"/>
+    //熊藍色
     <ImageView
         android:id="@+id/l"
-        android:layout_width="153dp"
-        android:layout_height="113dp"
+        android:layout_width="173dp"
+        android:layout_height="135dp"
         app:srcCompat="@drawable/l"
-        tools:layout_editor_absoluteX="569dp"
-        tools:layout_editor_absoluteY="308dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/k"/>
 
+
+    //橙色菇
+    <ImageView
+        android:id="@+id/g1"
+        android:layout_width="138dp"
+        android:layout_height="114dp"
+        app:layout_constraintBottom_toBottomOf="@id/guideline12"
+        app:layout_constraintStart_toStartOf="@id/guideline13"
+        app:srcCompat="@drawable/g1"/>
+    //紫色菇
+    <ImageView
+        android:id="@+id/h1"
+        android:layout_width="138dp"
+        android:layout_height="114dp"
+        app:layout_constraintBottom_toBottomOf="@id/guideline10"
+        app:layout_constraintStart_toStartOf="@id/guideline16"
+        app:srcCompat="@drawable/h1"/>
+    //綠色菇
+    <ImageView
+        android:id="@+id/i1"
+        android:layout_width="138dp"
+        android:layout_height="114dp"
+        app:layout_constraintBottom_toBottomOf="@id/guideline11"
+        app:layout_constraintStart_toStartOf="@id/guideline15"
+        app:srcCompat="@drawable/i1"/>
+    //黃色菇
+    <ImageView
+        android:id="@+id/j1"
+        android:layout_width="138dp"
+        android:layout_height="114dp"
+        app:layout_constraintBottom_toBottomOf="@id/guideline11"
+        app:layout_constraintStart_toStartOf="@id/guideline14"
+        app:srcCompat="@drawable/j1"
+         />
+    //紅色菇
+    <ImageView
+        android:id="@+id/k1"
+        android:layout_width="138dp"
+        android:layout_height="114dp"
+        app:layout_constraintBottom_toBottomOf="@id/guideline12"
+        app:layout_constraintStart_toStartOf="@id/guideline16"
+        app:srcCompat="@drawable/k1" />
+    //藍色菇
     <ImageView
         android:id="@+id/l1"
-        android:layout_width="134dp"
-        android:layout_height="110dp"
-        app:srcCompat="@drawable/l1"
-        tools:layout_editor_absoluteX="305dp"
-        tools:layout_editor_absoluteY="285dp" />
+        android:layout_width="138dp"
+        android:layout_height="114dp"
+        app:layout_constraintBottom_toBottomOf="@id/guideline10"
+        app:layout_constraintStart_toStartOf="@id/guideline13"
+        app:srcCompat="@drawable/l1" />
+
+
+    //水平線
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="123dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="245dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="370dp" />
+
+    //垂直線
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="173dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="237dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="408dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="345dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>

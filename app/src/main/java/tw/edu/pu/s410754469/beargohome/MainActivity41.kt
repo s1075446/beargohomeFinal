@@ -24,6 +24,7 @@ class MainActivity41 : AppCompatActivity() {
         val actionBar = supportActionBar
         actionBar!!.hide()
 
+        //長方形拖曳
         a = findViewById(R.id.a)
         a.setOnTouchListener(object:View.OnTouchListener{
             override fun onTouch(p0: View?, motionEvent: MotionEvent?): Boolean {
@@ -34,6 +35,8 @@ class MainActivity41 : AppCompatActivity() {
                 return true
             }
         })
+
+        //圓形拖曳
         b = findViewById(R.id.b)
         b.setOnTouchListener(object:View.OnTouchListener{
             override fun onTouch(p0: View?, motionEvent: MotionEvent?): Boolean {
@@ -44,6 +47,8 @@ class MainActivity41 : AppCompatActivity() {
                 return true
             }
         })
+
+        //菱形拖曳
         c = findViewById(R.id.c)
         c.setOnTouchListener(object:View.OnTouchListener{
             override fun onTouch(p0: View?, motionEvent: MotionEvent?): Boolean {
@@ -54,6 +59,8 @@ class MainActivity41 : AppCompatActivity() {
                 return true
             }
         })
+
+        //星形拖曳
         d = findViewById(R.id.d)
         d.setOnTouchListener(object:View.OnTouchListener{
             override fun onTouch(p0: View?, motionEvent: MotionEvent?): Boolean {
@@ -64,6 +71,8 @@ class MainActivity41 : AppCompatActivity() {
                 return true
             }
         })
+
+        //正方形拖曳
         e = findViewById(R.id.e)
         e.setOnTouchListener(object:View.OnTouchListener{
             override fun onTouch(p0: View?, motionEvent: MotionEvent?): Boolean {
@@ -74,6 +83,8 @@ class MainActivity41 : AppCompatActivity() {
                 return true
             }
         })
+
+        //三角形拖曳
         f = findViewById(R.id.f)
         f.setOnTouchListener(object:View.OnTouchListener{
             override fun onTouch(p0: View?, motionEvent: MotionEvent?): Boolean {
