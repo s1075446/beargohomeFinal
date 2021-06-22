@@ -12,8 +12,9 @@
         android:layout_width="90dp"
         android:layout_height="80dp"
         app:srcCompat="@drawable/a"
-        tools:layout_editor_absoluteX="233dp"
-        tools:layout_editor_absoluteY="315dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/b" />
 
     <ImageView
         android:id="@+id/a1"
@@ -28,63 +29,66 @@
         android:layout_width="82dp"
         android:layout_height="70dp"
         app:srcCompat="@drawable/b"
-        tools:layout_editor_absoluteX="220dp"
-        tools:layout_editor_absoluteY="208dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/a"
+        app:layout_constraintBottom_toTopOf="@id/c" />
 
     <ImageView
         android:id="@+id/b1"
         android:layout_width="147dp"
         android:layout_height="109dp"
         app:srcCompat="@drawable/b1"
-        tools:layout_editor_absoluteX="6dp"
-        tools:layout_editor_absoluteY="304dp" />
+        tools:layout_editor_absoluteX="-5dp"
+        tools:layout_editor_absoluteY="186dp" />
 
     <ImageView
         android:id="@+id/c"
         android:layout_width="108dp"
         android:layout_height="79dp"
         app:srcCompat="@drawable/c"
-        tools:layout_editor_absoluteX="452dp"
-        tools:layout_editor_absoluteY="170dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/b"/>
 
     <ImageView
         android:id="@+id/c1"
         android:layout_width="132dp"
         android:layout_height="97dp"
         app:srcCompat="@drawable/c1"
-        tools:layout_editor_absoluteX="583dp"
-        tools:layout_editor_absoluteY="304dp" />
+        tools:layout_editor_absoluteX="6dp"
+        tools:layout_editor_absoluteY="315dp" />
 
     <ImageView
         android:id="@+id/d"
         android:layout_width="94dp"
         android:layout_height="79dp"
         app:srcCompat="@drawable/d"
-        tools:layout_editor_absoluteX="179dp"
-        tools:layout_editor_absoluteY="100dp" />
+        tools:layout_editor_absoluteX="265dp"
+        tools:layout_editor_absoluteY="117dp" />
 
     <ImageView
         android:id="@+id/d1"
         android:layout_width="142dp"
         android:layout_height="110dp"
         app:srcCompat="@drawable/d1"
-        tools:layout_editor_absoluteX="582dp"
-        tools:layout_editor_absoluteY="178dp" />
+        tools:layout_editor_absoluteX="576dp"
+        tools:layout_editor_absoluteY="76dp" />
 
     <ImageView
         android:id="@+id/e"
         android:layout_width="83dp"
         android:layout_height="83dp"
         app:srcCompat="@drawable/e"
-        tools:layout_editor_absoluteX="323dp"
-        tools:layout_editor_absoluteY="113dp" />
+        tools:layout_editor_absoluteX="369dp"
+        tools:layout_editor_absoluteY="76dp" />
 
     <ImageView
         android:id="@+id/e1"
         android:layout_width="158dp"
         android:layout_height="99dp"
         app:srcCompat="@drawable/e1"
-        tools:layout_editor_absoluteX="-3dp"
+        tools:layout_editor_absoluteX="560dp"
         tools:layout_editor_absoluteY="196dp" />
 
     <ImageView
@@ -92,14 +96,14 @@
         android:layout_width="84dp"
         android:layout_height="89dp"
         app:srcCompat="@drawable/f"
-        tools:layout_editor_absoluteX="406dp"
-        tools:layout_editor_absoluteY="295dp" />
+        tools:layout_editor_absoluteX="435dp"
+        tools:layout_editor_absoluteY="315dp" />
 
     <ImageView
         android:id="@+id/f1"
         android:layout_width="143dp"
         android:layout_height="94dp"
         app:srcCompat="@drawable/f1"
-        tools:layout_editor_absoluteX="581dp"
-        tools:layout_editor_absoluteY="76dp" />
+        tools:layout_editor_absoluteX="573dp"
+        tools:layout_editor_absoluteY="301dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>

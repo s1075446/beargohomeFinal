@@ -12,13 +12,13 @@ class MainActivity2 : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main2)
 
-        color.setOnClickListener(object: View.OnClickListener{
+        shape.setOnClickListener(object: View.OnClickListener{
             override fun onClick(p0: View?) {
                 intent = Intent(this@MainActivity2, MainActivity31::class.java)
                 startActivity(intent)
             }
         })
-        shape.setOnClickListener(object: View.OnClickListener{
+        color.setOnClickListener(object: View.OnClickListener{
             override fun onClick(p0: View?) {
                 intent = Intent(this@MainActivity2, MainActivity32::class.java)
                 startActivity(intent)

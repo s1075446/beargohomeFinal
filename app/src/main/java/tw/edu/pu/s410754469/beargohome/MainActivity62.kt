@@ -2,6 +2,12 @@ package tw.edu.pu.s410754469.beargohome
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import kotlinx.android.synthetic.main.activity_main.*
+import kotlinx.android.synthetic.main.activity_main62.*
+import android.view.MotionEvent
+import android.view.View
+import android.widget.ImageView
+
 
 class MainActivity62 : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
