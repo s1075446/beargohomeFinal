@@ -15,7 +15,7 @@ class MainActivity32 : AppCompatActivity() {
         //intent 按下action2到第4-2頁
         action2.setOnClickListener(object: View.OnClickListener{
             override fun onClick(p0: View?) {
-                intent = Intent(this@MainActivity32, MainActivity42::class.java)
+                intent = Intent(this@MainActivity32, MainActivity51::class.java)
                 startActivity(intent)
             }
         })

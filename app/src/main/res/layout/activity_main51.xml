@@ -7,24 +7,71 @@
     tools:context=".MainActivity51"
     android:background="@drawable/background">
 
+    //熊橙色
     <ImageView
-        android:id="@+id/ya"
-        android:layout_width="695dp"
-        android:layout_height="249dp"
-        app:srcCompat="@drawable/ya"
+        android:id="@+id/g"
+        android:layout_width="173dp"
+        android:layout_height="135dp"
+        app:srcCompat="@drawable/g"
+        app:layout_constraintBottom_toTopOf="@id/h"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+    //熊紫色
+    <ImageView
+        android:id="@+id/h"
+        android:layout_width="173dp"
+        android:layout_height="135dp"
+        app:srcCompat="@drawable/h"
+        app:layout_constraintBottom_toTopOf="@id/i"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/g"/>
+    //熊綠色
+    <ImageView
+        android:id="@+id/i"
+        android:layout_width="173dp"
+        android:layout_height="135dp"
+        app:srcCompat="@drawable/i"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/h" />
+    //熊黃色
+    <ImageView
+        android:id="@+id/j"
+        android:layout_width="173dp"
+        android:layout_height="135dp"
+        app:srcCompat="@drawable/j"
+        app:layout_constraintBottom_toTopOf="@id/k"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    //熊紅色
+    <ImageView
+        android:id="@+id/k"
+        android:layout_width="173dp"
+        android:layout_height="135dp"
+        app:srcCompat="@drawable/k"
+        app:layout_constraintBottom_toTopOf="@id/l"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/j"/>
+    //熊藍色
+    <ImageView
+        android:id="@+id/l"
+        android:layout_width="173dp"
+        android:layout_height="135dp"
+        app:srcCompat="@drawable/l"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/k"/>
+
+
+    //橙色菇
+    <ImageView
+        android:id="@+id/g1"
+        android:layout_width="307dp"
+        android:layout_height="306dp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintBottom_toTopOf="@+id/back"/>
-    <ImageView
-        android:id="@+id/back"
-        android:layout_width="328dp"
-        android:layout_height="150dp"
-        app:srcCompat="@drawable/back"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/ya"/>
-
+        app:srcCompat="@drawable/g1"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

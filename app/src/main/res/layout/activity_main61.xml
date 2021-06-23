@@ -8,22 +8,23 @@
     android:background="@drawable/background">
 
     <ImageView
-        android:id="@+id/go"
-        android:layout_width="449dp"
-        android:layout_height="165dp"
-        app:srcCompat="@drawable/go"
+        android:id="@+id/ya"
+        android:layout_width="695dp"
+        android:layout_height="249dp"
+        app:srcCompat="@drawable/ya"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintBottom_toTopOf="@+id/next"/>
-
+        app:layout_constraintBottom_toTopOf="@+id/back"/>
     <ImageView
-        android:id="@+id/next"
-        android:layout_width="319dp"
-        android:layout_height="148dp"
-        app:srcCompat="@drawable/next"
+        android:id="@+id/back"
+        android:layout_width="328dp"
+        android:layout_height="150dp"
+        app:srcCompat="@drawable/back"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/go"/>
+        app:layout_constraintTop_toBottomOf="@+id/ya"/>
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>

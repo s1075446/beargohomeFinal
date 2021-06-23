@@ -1,22 +1,37 @@
 package tw.edu.pu.s410754469.beargohome
 
-import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.view.View
 import kotlinx.android.synthetic.main.activity_main51.*
+import android.view.MotionEvent
+import android.view.View
+import android.widget.ImageView
 
 class MainActivity51 : AppCompatActivity() {
+
+    //拖曳部分
+    lateinit var g1: ImageView
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main51)
 
-        //intent 按下back鈕返回第二頁
-        back.setOnClickListener(object: View.OnClickListener{
-            override fun onClick(p0: View?) {
-                intent = Intent(this@MainActivity51, MainActivity2::class.java)
-                startActivity(intent)
+        //拖曳部分
+        val actionBar = supportActionBar
+        actionBar!!.hide()
+
+        //橙色拖曳
+        g1 = findViewById(R.id.g1)
+        g1.setOnTouchListener(object: View.OnTouchListener{
+            override fun onTouch(p0: View?, motionEvent: MotionEvent?): Boolean {
+                if (motionEvent?.action == MotionEvent.ACTION_MOVE) {
+                    g1.y = motionEvent.rawY-g1.height
+                    g1.x = motionEvent.rawX-g1.width/2
+                }
+                return true
             }
         })
+
+
     }
 }
