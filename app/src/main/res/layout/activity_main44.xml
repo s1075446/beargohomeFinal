@@ -4,74 +4,72 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity51"
+    tools:context=".MainActivity44"
     android:background="@drawable/background">
 
-    //橙色菇
+    //圓形
     <ImageView
-        android:id="@+id/g1"
+        android:id="@+id/b"
         android:layout_width="223dp"
         android:layout_height="220dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/g1"/>
+        app:srcCompat="@drawable/b" />
 
-    //熊橙色
+    //熊長方形
     <ImageView
-        android:id="@+id/g"
+        android:id="@+id/a1"
         android:layout_width="186dp"
         android:layout_height="116dp"
-        app:srcCompat="@drawable/g"
-        app:layout_constraintBottom_toTopOf="@id/h"
+        app:layout_constraintBottom_toTopOf="@id/b1"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"/>
-    //熊紫色
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/a1" />
+    //熊圓形
     <ImageView
-        android:id="@+id/h"
+        android:id="@+id/b1"
         android:layout_width="186dp"
         android:layout_height="116dp"
-        app:srcCompat="@drawable/h"
-        app:layout_constraintBottom_toTopOf="@id/i"
+        app:layout_constraintBottom_toTopOf="@id/c1"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/g"/>
-    //熊綠色
+        app:layout_constraintTop_toBottomOf="@id/a1"
+        app:srcCompat="@drawable/b1" />
+    //熊菱形
     <ImageView
-        android:id="@+id/i"
+        android:id="@+id/c1"
         android:layout_width="186dp"
         android:layout_height="116dp"
-        app:srcCompat="@drawable/i"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/h" />
-    //熊黃色
+        app:layout_constraintTop_toBottomOf="@id/b1"
+        app:srcCompat="@drawable/c1" />
+    //熊星形
     <ImageView
-        android:id="@+id/j"
+        android:id="@+id/d1"
         android:layout_width="186dp"
         android:layout_height="116dp"
-        app:srcCompat="@drawable/j"
-        app:layout_constraintBottom_toTopOf="@id/k"
+        app:layout_constraintBottom_toTopOf="@id/e1"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-    //熊紅色
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/d1" />
+    //熊正方形
     <ImageView
-        android:id="@+id/k"
+        android:id="@+id/e1"
         android:layout_width="186dp"
         android:layout_height="116dp"
-        app:srcCompat="@drawable/k"
-        app:layout_constraintBottom_toTopOf="@id/l"
+        app:layout_constraintBottom_toTopOf="@id/f1"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/j"/>
-    //熊藍色
+        app:layout_constraintTop_toBottomOf="@id/d1"
+        app:srcCompat="@drawable/e1" />
+    //熊三角形
     <ImageView
-        android:id="@+id/l"
+        android:id="@+id/f1"
         android:layout_width="186dp"
         android:layout_height="116dp"
-        app:srcCompat="@drawable/l"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/k"/>
-
-
+        app:layout_constraintTop_toBottomOf="@id/e1"
+        app:srcCompat="@drawable/f1" />
 </androidx.constraintlayout.widget.ConstraintLayout>

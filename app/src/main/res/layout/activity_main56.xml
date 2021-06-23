@@ -4,19 +4,19 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity51"
+    tools:context=".MainActivity56"
     android:background="@drawable/background">
 
-    //橙色菇
+    //綠色菇
     <ImageView
-        android:id="@+id/g1"
+        android:id="@+id/i1"
         android:layout_width="223dp"
         android:layout_height="220dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/g1"/>
+        app:srcCompat="@drawable/i1"/>
 
     //熊橙色
     <ImageView
@@ -72,6 +72,4 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@id/k"/>
-
-
 </androidx.constraintlayout.widget.ConstraintLayout>

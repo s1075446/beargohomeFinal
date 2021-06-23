@@ -7,11 +7,22 @@
     android:background="@drawable/background"
     tools:context=".MainActivity41">
 
+    //長方形
+    <ImageView
+        android:id="@+id/a"
+        android:layout_width="223dp"
+        android:layout_height="220dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/a" />
+
     //熊長方形
     <ImageView
         android:id="@+id/a1"
-        android:layout_width="173dp"
-        android:layout_height="135dp"
+        android:layout_width="186dp"
+        android:layout_height="116dp"
         app:layout_constraintBottom_toTopOf="@id/b1"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -19,8 +30,8 @@
     //熊圓形
     <ImageView
         android:id="@+id/b1"
-        android:layout_width="173dp"
-        android:layout_height="135dp"
+        android:layout_width="186dp"
+        android:layout_height="116dp"
         app:layout_constraintBottom_toTopOf="@id/c1"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/a1"
@@ -28,8 +39,8 @@
     //熊菱形
     <ImageView
         android:id="@+id/c1"
-        android:layout_width="173dp"
-        android:layout_height="135dp"
+        android:layout_width="186dp"
+        android:layout_height="116dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/b1"
@@ -37,8 +48,8 @@
     //熊星形
     <ImageView
         android:id="@+id/d1"
-        android:layout_width="173dp"
-        android:layout_height="135dp"
+        android:layout_width="186dp"
+        android:layout_height="116dp"
         app:layout_constraintBottom_toTopOf="@id/e1"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -46,8 +57,8 @@
     //熊正方形
     <ImageView
         android:id="@+id/e1"
-        android:layout_width="173dp"
-        android:layout_height="135dp"
+        android:layout_width="186dp"
+        android:layout_height="116dp"
         app:layout_constraintBottom_toTopOf="@id/f1"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@id/d1"
@@ -55,22 +66,12 @@
     //熊三角形
     <ImageView
         android:id="@+id/f1"
-        android:layout_width="173dp"
-        android:layout_height="135dp"
+        android:layout_width="186dp"
+        android:layout_height="116dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@id/e1"
         app:srcCompat="@drawable/f1" />
 
-    //長方形
-    <ImageView
-        android:id="@+id/a"
-        android:layout_width="307dp"
-        android:layout_height="306dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/a" />
 
  </androidx.constraintlayout.widget.ConstraintLayout>
