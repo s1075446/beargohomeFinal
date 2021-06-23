@@ -11,20 +11,22 @@
   <ImageView
       android:id="@+id/ya2"
       android:layout_width="695dp"
-      android:layout_height="249dp"
+      android:layout_height="181dp"
       app:srcCompat="@drawable/ya2"
+      app:layout_constraintBottom_toTopOf="@+id/back2"
       app:layout_constraintEnd_toEndOf="parent"
       app:layout_constraintStart_toStartOf="parent"
       app:layout_constraintTop_toTopOf="parent"/>
 
   <ImageView
       android:id="@+id/back2"
-      android:layout_width="328dp"
-      android:layout_height="150dp"
+      android:layout_width="313dp"
+      android:layout_height="135dp"
       app:srcCompat="@drawable/back2"
       app:layout_constraintEnd_toEndOf="parent"
       app:layout_constraintStart_toStartOf="parent"
-      app:layout_constraintBottom_toBottomOf="parent"/>
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/ya2"/>
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
