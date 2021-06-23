@@ -11,6 +11,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+        //測試
         //intent 按下enter鈕返回第二頁
         enter.setOnClickListener(object: View.OnClickListener{
                 override fun onClick(p0: View?) {
